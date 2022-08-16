@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-clouds {
+  position: absolute;
+  top: 90px;
+  right: 500px;
+}
+
+.bottom-clouds {
+  position: absolute;
+  bottom: 400px;
+  left: 500px;
+}
+
+.top-container {
+  padding-top: 5%;
+  background-color: #CEE5D0;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.chilli-img{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.code-img{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.profile{
+  margin: 100px auto;
+}
+.profile-img{
+  width: 20%;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted ;
+    border-color: #d2d3ce;
+    border-width: 6px;
+    width: 4%;
+
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 40px 0;
+}
+
+.bottom-container p{
+  color: #EAF6F6;
+}
+.bottom-container a{
+  text-decoration: none;
+  font-weight: bolder;
+  line-height: 5;
+  color: #11999E;
+  margin: auto 20px;
+}
+.contact-me{
+  margin: 100px auto;
+  width:50%;
+}
+
+.btn {
+  background: #5ebfbf;
+  background-image: -webkit-linear-gradient(top, #5ebfbf, #2c8585);
+  background-image: -moz-linear-gradient(top, #5ebfbf, #2c8585);
+  background-image: -ms-linear-gradient(top, #5ebfbf, #2c8585);
+  background-image: -o-linear-gradient(top, #5ebfbf, #2c8585);
+  background-image: linear-gradient(to bottom, #5ebfbf, #2c8585);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.contact-me p{
+  line-height: 2;
+  margin-bottom: 50px;
+  
+}
