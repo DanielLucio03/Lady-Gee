@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
+  color: #40514E;
 }
 
 h1 {
@@ -25,6 +26,7 @@ h3{
 
 a{
   color: #11999E;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .pro {
@@ -113,7 +115,7 @@ hr{
   -webkit-border-radius: 12;
   -moz-border-radius: 12;
   border-radius: 12px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -134,6 +136,22 @@ hr{
 
 .contact-me p{
   line-height: 2;
-  margin-bottom: 50px;
-  
+  margin: 30px auto 60px;
+  width: 50%;
+
+
+}
+
+.intro-profile{
+  width: 30%;
+  margin:auto ;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.credits{
+  color: #EAF6F6;
+  font-size: .75rem;
 }
